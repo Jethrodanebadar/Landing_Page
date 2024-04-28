@@ -1,0 +1,183 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header_links {
+  display: flex;
+  text-align: center;
+  gap:  1rem;
+  padding: 8px;
+  list-style-type: none;
+  color: #e5e7eb;
+}
+
+.individual_links {
+  padding: 8px;
+}
+
+.first_div {
+  display: flex;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.introduction{
+  max-width: 30% ;
+  flex-direction: column;
+  display: flex;
+  padding: 3rem 3rem 3rem 16.5rem ;
+  
+}
+
+h2{
+  padding: 0px;
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.logoText{
+  color: #e5e7eb ;
+  font-size: 18px;
+  opacity: .9;
+}
+
+.button{
+  background-color: #3882F6;
+  color: #e5e7eb ;
+  max-width: 6rem;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.image-placeholder{
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 100px;
+}
+
+.image{
+  max-width: 500px;
+}
+
+.second_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.Second_header{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.setimages{
+  display: flex;
+  gap: 35px;
+}
+
+.images{
+width: 150px;
+height: 150px;
+background-color: gray;
+border-radius: 5px;
+}
+
+.texts{
+  color: #b4b6b9 ;
+  font-size: 18px;
+  opacity: .9;
+  text-wrap: wrap;
+  max-width: 150px;
+  text-align: center;
+}
+
+.third_div{
+
+  flex-direction: column;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.quote{
+  max-width: 50%;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.Thor{
+  align-self: flex-end;
+  margin-right: 450px;
+  font-weight: bold;
+}
+
+.fourth_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.sign_up{
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px 0 100px;
+  border-radius: 10px;
+}
+
+.signup-text{
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+}
+
+.signup-header{
+  padding: 0px;
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.signup-p{
+  padding: 0px;
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 18px;
+  opacity: .9;
+}
+
+.sign_upbutton{
+  background-color: transparent;
+  border-color: #f9faf8 ;
+  border-radius: 5px;
+  color: #f9faf8;
+  margin: 100px;
+  width: 100px;
+  height: 35px;
+}
